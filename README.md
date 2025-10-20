@@ -22,4 +22,14 @@ outline: 1px solid whitesmoke;
 ``` 
 Zmień czas przejścia na 0.7s oraz skalę transformacji na 1.07. Czy widzisz zmianę?
 
+5. Do projektu dodano nowy arkusz styli **menu.css** podepnij go we właściwy sposób do pliku **index.html**.
+    - Zmień efekty kolorystyczne wywołane po najechaniu na poszczególne elementy.
+    - Wprowadź delikatny efekt przejścia, by kolor po najechaniu kursorem zmieniał się stopniowo.
+
 ## HTML
+
+1. Do galerii planet dodaj nową planetę Pluton:
+    - link do grafiki: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Pluto-01_Stern_03_Pluto_Color_TXT.jpg/1280px-Pluto-01_Stern_03_Pluto_Color_TXT.jpg
+    - opis w Wikipedii: https://pl.wikipedia.org/wiki/(134340)_Pluton
+
+2. Dodaj do utworzonego menu link do podstrony pluton.html, posługując się wyłącznie dostępnymi stylami **style.css, menu.css, reset.css**. Nadaj stronie ładny wygląd. Umieść na niej szczegółowe informacje o Plutonie z **Wikipedii**. Zadbaj o estetytykę. 

@@ -1,5 +1,7 @@
 nav {
-    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    outline: 1px solid whitesmoke;
 }
 
 ul {
@@ -23,4 +25,8 @@ ul li a {
 ul li a:hover {
     background-color: #c31212;
     transition: 0.7s ease-in-out;
+}
+
+ul li:last-child {
+    float: right;
 }

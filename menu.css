@@ -17,8 +17,10 @@ ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 0.3s ease-in-out;
 }
 
 ul li a:hover {
-    background-color: #4a9eff;
+    background-color: #c31212;
+    transition: 0.7s ease-in-out;
 }

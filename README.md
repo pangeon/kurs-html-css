@@ -1,3 +1,7 @@
+# Link do aktualnej wersji strony
+
+- [srv35804.seohost.com.pl](https://srv35804.seohost.com.pl/)
+
 # Ćwiczenia
 ## CSS
 1. W pliku **style.css** zmień krój czcionki dla całego dokumentu.

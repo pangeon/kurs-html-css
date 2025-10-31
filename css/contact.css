@@ -1,0 +1,130 @@
+:root{
+    --bg:#1a1a1a;
+    --card:#2a2a2a;
+    --accent:#333333;
+    --muted:#4a9eff;
+}
+body{
+    margin:0;
+    font-family: Inter, Roboto, Arial, sans-serif;
+    background:var(--bg);
+    color: white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    padding:2rem;
+}
+.card{
+    background:var(--card);
+    border-radius:10px;
+    box-shadow:0 6px 20px rgba(16,24,40,0.08);
+    outline: 1px solid whitesmoke;
+    width:100%;
+    max-width:720px;
+    padding:1.5rem;
+}
+h1{
+    margin:0 0 0.5rem 0;
+    font-size:1.5rem;
+}
+p.lead{
+    font-weight: bolder;
+    margin:0 0 2rem 0;
+    color:var(--muted);
+    font-size:0.95rem;
+}
+form{
+    display:grid;
+    gap:0.75rem;
+}
+.row{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:0.75rem;
+}
+label{
+    font-weight: bolder;
+    font-size:0.85rem;
+    color:var(--muted);
+    display:block;
+    margin-bottom:0.35rem;
+}
+input[type="text"], input[type="email"], input[type="tel"], textarea, select{
+    font-family: Inter, Roboto, Arial, sans-serif;
+    width:100%;
+    padding:0.55rem 0.6rem;
+    color: #c31212;
+    border-radius:6px;
+    font-size:0.95rem;
+    box-sizing:border-box;
+    background-color:var(--bg);
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus, select:focus{
+    outline: none;
+    border: 1px solid var(--muted);
+    box-shadow: none;
+}
+textarea{
+    min-height:120px;
+    resize:vertical;
+}
+.small{
+    font-size:0.85rem;
+    color:var(--muted);
+}
+.actions{
+    display:flex;
+    gap:0.5rem;
+    align-items:center;
+    margin-top:0.5rem;
+}
+button{
+    background:var(--accent);
+    color:white;
+    border:0;
+    padding:0.6rem 0.9rem;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:600;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    background-color: #c31212;
+    transition: 0.7s ease-in-out;
+}
+button.secondary{
+    background:#e5e7eb;
+    color:#111827;
+    font-weight:bold;
+}
+button.secondary:hover{
+    background:var(--muted);
+    color:#e5e7eb;
+    font-weight:600;
+}
+.success{
+    display:none;
+    padding:0.75rem;
+    background:#ecfdf5;
+    color:#065f46;
+    border:1px solid #bbf7d0;
+    border-radius:6px;
+    margin-top:0.75rem;
+}
+.return-link {
+    float: right;
+    margin-top: 15px;
+    font-size:0.95rem;
+    color: var(--muted);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+.return-link:hover {
+    color: #c31212;
+    transition: 0.7s ease-in-out;
+}
+@media (max-width:560px){
+    .row{ grid-template-columns:1fr; }
+}

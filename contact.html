@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+    <html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <title>Formularz kontaktowy</title>
+    </head>
+    <body>
+        <main class="card" role="main">
+            <h1>Skontaktuj się z nami</h1>
+            <p class="lead">Masz pytanie? Napisz wiadomość — odpowiemy jak najszybciej.</p>
+    
+            <form id="contactForm" action="#" method="post" novalidate>
+                <div class="row">
+                    <div>
+                        <label for="name">Imię i nazwisko <span class="small" aria-hidden="true">*</span></label>
+                        <input id="name" name="name" type="text" required placeholder="Jan Kowalski" autocomplete="name">
+                    </div>
+                    <div>
+                        <label for="email">E-mail <span class="small" aria-hidden="true">*</span></label>
+                        <input id="email" name="email" type="email" required placeholder="jan@example.com" autocomplete="email">
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div>
+                        <label for="phone">Telefon (opcjonalnie)</label>
+                        <input id="phone" name="phone" type="tel" placeholder="+48 600 000 000" pattern="^\+?[0-9\s\-]{7,}$" autocomplete="tel">
+                    </div>
+                    <div>
+                        <label for="subject">Temat</label>
+                        <input id="subject" name="subject" type="text" placeholder="Temat wiadomości">
+                    </div>
+                </div>
+    
+                <div>
+                    <label for="message">Wiadomość <span class="small" aria-hidden="true">*</span></label>
+                    <textarea id="message" name="message" required placeholder="Napisz wiadomość..."></textarea>
+                </div>
+    
+                <label style="display:flex;gap:0.5rem;align-items:center;">
+                    <input id="consent" name="consent" type="checkbox" required>
+                    <span class="small">Wyrażam zgodę na przetwarzanie danych osobowych w celu obsługi zapytania.</span>
+                </label>
+    
+                <div class="actions">
+                    <button type="submit">Wyślij</button>
+                    <button type="reset" class="secondary">Wyczyść</button>
+                    <div style="flex:1"></div>
+                </div>
+    
+                <div id="success" class="success" role="status" aria-live="polite">
+                    Dziękujemy — Twoja wiadomość została przygotowana do wysyłki.
+                </div>
+            </form>
+            <br />
+            <a class="return-link" href="index.html">Powrót do strony głównej</a>
+        </main>
+        <script src="js/contact.js"></script>
+    </body>
+</html>

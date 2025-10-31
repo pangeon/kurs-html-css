@@ -46,3 +46,38 @@ Zmień czas przejścia na 0.7s oraz skalę transformacji na 1.07. Czy widzisz zm
 4. Nie zapomnij o linku powrotu na stronę główną jak na stronie **Plutona**.
 5. Zacznij organizować pliki, wszystkie css umieść w osobnym folderu **css**, zmień ścieżki do plików css na stronach **HTML**.
 
+### 1.11.2025
+
+1. Wykorzystując plik **info.txt**, który zawiera wszystkie informacje o pozostałych planetach:
+    - stwórz strony: **merkury.html, wenus.html, ziemia.html, mars.html, jowisz.html, saturn.html, uran.html, neptun.html**.
+    - podstrony muszą być dostępne z poziomu strony głównej w menu na górze, a także zawierać link powrotny.
+    - wszystko sprowadza się do skopiowania podstrony pluton.html, podmianę nazw i treści, a także na dodaniu odpowiednich linków.
+2. Strona kontakt korzysta z pliku **contact.css** gdzie wykorzystujesz, zmienne z nazwami kolorów:
+
+    ```
+    :root{
+        --bg:#1a1a1a;
+        --card:#2a2a2a;
+        --accent:#333333;
+        --muted:#4a9eff;
+    }
+    ...
+    p.lead{
+        font-weight: bolder;
+        margin:0 0 2rem 0;
+        color:var(--muted);
+        font-size:0.95rem;
+    }
+    ```  
+    są jednak miejsca gdzie kolory są zdeklarowane jawnie czyli np. **color: white**, zastosuj wszędzie gdzie to możliwe funkcje **var()**.
+
+3. Na stronie kontakt, która korzysta z pliku **contact.css** gdzie wykorzystujesz zapytania o media:
+    ```
+    @media (max-width:560px){
+        .row{ grid-template-columns:1fr; }
+    }
+    ```
+
+    dzięki czemu strona wygląda dobrze na urządzeniach mobilnych. Spróbuj wykorzystać zapytania o media by ten sam efekt uzyskać na całej stronie, sprawdź jak wygląda ona w telefonie: [srv35804.seohost.com.pl](https://srv35804.seohost.com.pl/) i co można zmienić. Kiepsko wyglądają np. strony z planetami, gdyż tekst za mocno się zwija.
+
+4. Spróbuj na stronie głównej index.html zrobić sekcję footer, miejsce gdzie można by umieścić informacje np. o autorze strony czy linki do mediów społecznościowych.

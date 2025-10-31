@@ -1,0 +1,110 @@
+---------------------------------------------------------------------------------------------------------
+Merkury
+Jest najmniejszą i najbliższą Słońcu planetą Układu Słonecznego. 
+Nie posiada atmosfery w klasycznym sensie, a jego powierzchnia jest pokryta kraterami, 
+przypominającymi Księżyc.
+
+Status planety:
+Merkury jest jedną z ośmiu planet Układu Słonecznego, zaliczaną do planet skalistych.
+
+Odkrycie:
+Był znany już w starożytności, obserwowany przez Babilończyków, Greków i Rzymian.
+
+Charakterystyka:
+Jego średnica wynosi ok. 4879 km. Doba na Merkurym trwa 59 dni ziemskich, 
+a rok zaledwie 88 dni. Panują tam ekstremalne różnice temperatur: od -180°C w nocy do +430°C w dzień.
+---------------------------------------------------------------------------------------------------------
+Wenus
+Druga planeta od Słońca, często nazywana „siostrą Ziemi” ze względu na podobny rozmiar i masę, 
+choć jej warunki są piekielne.
+
+Status planety:
+Wenus jest planetą skalistą i jedną z czterech planet wewnętrznych.
+
+Odkrycie:
+Znana od starożytności. Jej jasność czyni ją najjaśniejszym 
+obiektem na niebie po Słońcu i Księżycu.
+
+Charakterystyka:
+Pokryta gęstą atmosferą z dwutlenku węgla, z chmurami kwasu siarkowego.
+Temperatura na powierzchni dochodzi do 470°C. Obraca się w kierunku przeciwnym do większości planet.
+---------------------------------------------------------------------------------------------------------
+Ziemia
+Trzecia planeta od Słońca i jedyna znana, na której występuje życie.
+
+Status planety:
+Ziemia jest planetą skalistą z aktywną tektoniką płyt i hydrosferą.
+
+Odkrycie:
+Nie wymaga odkrycia – ludzie mieszkają na niej od zawsze, choć świadomość jej kulistego kształtu pojawiła się w starożytności.
+
+Charakterystyka:
+Ma atmosferę bogatą w tlen i azot, 71% jej powierzchni pokrywa woda. 
+Obrót wokół osi trwa 24 godziny, a obieg wokół Słońca – 365 dni.
+---------------------------------------------------------------------------------------------------------
+Mars
+Czwarta planeta od Słońca, nazywana „Czerwoną Planetą” z powodu tlenków żelaza na powierzchni.
+
+Status planety:
+Mars jest planetą skalistą, często badany w kontekście możliwości istnienia życia.
+
+Odkrycie:
+Znany od starożytności, obserwowany przez wiele kultur jako czerwonawy punkt na niebie.
+
+Charakterystyka:
+Posiada dwa małe księżyce – Fobosa i Deimosa. 
+Na powierzchni znajdują się największe wulkan i kanion w Układzie Słonecznym: Olympus Mons i Valles Marineris.
+---------------------------------------------------------------------------------------------------------
+Jowisz
+Piąta planeta od Słońca i największa w Układzie Słonecznym.
+
+Status planety:
+Jowisz to gazowy olbrzym, głównie zbudowany z wodoru i helu.
+
+Odkrycie:
+Znany od starożytności, był obserwowany przez Galileusza w 1610 roku, który odkrył jego cztery największe księżyce.
+
+Charakterystyka:
+Ma ponad 90 księżyców, w tym Ganimedesa – największy księżyc w Układzie Słonecznym. 
+Posiada silne pasy chmur i Wielką Czerwoną Plamę – gigantyczny huragan trwający od stuleci.
+---------------------------------------------------------------------------------------------------------
+Saturn
+Szósta planeta od Słońca, słynąca z majestatycznych pierścieni.
+
+Status planety:
+Saturn to gazowy olbrzym, zbudowany głównie z wodoru i helu.
+
+Odkrycie:
+Znany od starożytności, ale jego pierścienie po raz pierwszy zaobserwował Galileusz w 1610 roku.
+
+Charakterystyka:
+Ma ponad 140 księżyców i drobnych satelitów, z których największy to Tytan – 
+posiadający gęstą atmosferę i jeziora metanu. Pierścienie zbudowane są głównie z lodu i skał.
+---------------------------------------------------------------------------------------------------------
+Uran
+Siódma planeta od Słońca, o charakterystycznym bladoniebieskim kolorze.
+
+Status planety:
+Uran jest lodowym olbrzymem, zawierającym wodór, hel i związki lodowe, takie jak metan i amoniak.
+
+Odkrycie:
+Odkryty w 1781 roku przez Williama Herschela – była to pierwsza planeta odkryta za pomocą teleskopu.
+
+Charakterystyka:
+Ma 27 znanych księżyców. Obraca się „na boku” – jego oś obrotu jest nachylona pod kątem około 98°, 
+co powoduje ekstremalne pory roku.
+---------------------------------------------------------------------------------------------------------
+Neptun
+Ósma i najbardziej odległa planeta od Słońca.
+
+Status planety:
+Neptun to lodowy olbrzym podobny do Urana.
+
+Odkrycie:
+Odkryty w 1846 roku na podstawie obliczeń matematycznych – był pierwszą planetą, 
+której istnienie przewidziano teoretycznie, zanim ją zaobserwowano.
+
+Charakterystyka:
+Ma intensywny niebieski kolor dzięki obecności metanu w atmosferze. 
+Posiada silne wiatry i burze, a jego największy księżyc to Tryton, poruszający się ruchem wstecznym wokół planety.
+---------------------------------------------------------------------------------------------------------
